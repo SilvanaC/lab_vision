@@ -1,5 +1,4 @@
-Silavan Castillo
-Laura Daza
+Silvana Castillo - Laura Daza
 
 Arquitectura:
 
