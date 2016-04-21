@@ -9,7 +9,8 @@ setup ;
 % Load character dataset
 imdb = load('textonsdb.mat') ;
 imdb.images.data = im2single(imdb.images.data);
-imdb.images.set((length(imdb.images.set))/2:end) = 2 ;
+x = [1:2:25000];
+imdb.images.set(x) = 2 ;
 
 % -------------------------------------------------------------------------
 % Part 4.2: initialize a CNN architecture
@@ -27,7 +28,7 @@ imdb.images.data = imdb.images.data - imageMean ;
 % -------------------------------------------------------------------------
 
 trainOpts.batchSize = 64;
-trainOpts.numEpochs = 15 ;
+trainOpts.numEpochs = 20 ;
 trainOpts.continue = true ;
 trainOpts.useGpu = false ;
 trainOpts.learningRate = 0.001 ;
