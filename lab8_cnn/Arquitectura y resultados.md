@@ -20,5 +20,7 @@ Resultados:
 La red se demoro 3,7 horas (13347,72 segundos) en entrenar 15 epocas. Asumimos que en la GPU se demorara menos por lo que aumentamos a 20 epocas
 el archivo subido.
 
+Los resultados obtenidos para los sets de entrenamiento y validación son:
 
-the results you got on the training and validation sets
+![Architecture](https://raw.githubusercontent.com/SilvanaC/lab_vision/master/lab8_cnn/train.png)
+![Architecture](https://raw.githubusercontent.com/SilvanaC/lab_vision/master/lab8_cnn/test.png)
