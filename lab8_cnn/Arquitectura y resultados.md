@@ -13,7 +13,7 @@ Despues nuevamente se realiza un pooling para reducir el tamaño de la imagen y 
 Luego de esto, si se le aplica la no linearidad y viene una ultima capa de convolución que disminuye el numero de filtros a 25, que es el numero de categorias (texturas).
 Para finalmente hacer un softmax que predece la etiqueta (da la categoria con mayor probabilidad de corresponder con la imagen). 
 
-![Architecture](https://raw.githubusercontent.com/luiscarm9/lab_vision/master/lab8_cnn/red.PNG)
+![Architecture](https://raw.githubusercontent.com/SilvanaC/lab_vision/edit/master/lab8_cnn/red.PNG)
 
 Resultados:
 La red se demoro 3,7 horas (13347,72 segundos) en entrenar 15 epocas. Asumimos que en la GPU se demorara menos por lo que aumentamos a 20 epocas
